@@ -15,12 +15,12 @@
  * @returns {string}
  */
 function concatTwoStrings(string1, string2) {
-  if (string1.length > 20) {
+  if (string1.length > 20 && string2.length > 20) {
+    return `${string1.substr(0, 10)}... ${string2.substr(0, 10)}...`;
+  } else if (string1.length > 20) {
     return `${string1.substr(0, 10)}... ${string2}`;
   } else if (string2.length > 20) {
     return `${string1} ${string2.substr(0, 10)}...`;
-  } else if (string1.length > 20 && string2.length > 20) {
-    return `${string1.substr(0, 10)}... ${string2.substr(0, 10)}`;
   } else {
     return `${string1} ${string2}`;
   }
