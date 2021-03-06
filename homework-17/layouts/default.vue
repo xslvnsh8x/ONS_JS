@@ -59,6 +59,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  letter-spacing: .5px;
   background: dodgerblue;
   color: white;
   border: none;
@@ -68,6 +69,12 @@ html {
 
   &:hover {
     background: #0970d4;
+  }
+  &:disabled {
+    background: #f0f0f0;
+    color: #8a8a8a;
+    border: 1px solid #c5c5c5;
+    cursor: no-drop;
   }
 }
 </style>

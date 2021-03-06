@@ -41,8 +41,11 @@ export default Vue.extend({
 
 .cartButton {
   display: flex;
+  color: #3b3b3f;
   text-decoration: none;
   font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 22px;
 }
 
 .counter {
@@ -52,7 +55,7 @@ export default Vue.extend({
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #75787d;
+  background: #8a8a8a;
   border-radius: 50%;
   font-size: .78rem;
   font-weight: 500;

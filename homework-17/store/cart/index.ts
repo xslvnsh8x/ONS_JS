@@ -26,13 +26,16 @@ export const mutations = {
     }
   },
   deleteItem (state, item) {
-    const newItems = {
+    // const newItems = {
+    //   ...state.items
+    // }
+    // delete newItems[item.id]
+    // state.items = newItems
+
+    state.items = {
       ...state.items
     }
-
-    delete newItems[item.id]
-
-    state.items = newItems
+    delete state.items[item.id]
   }
 }
 

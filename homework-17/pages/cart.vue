@@ -28,11 +28,13 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 .container {
+  margin-top: 64px;
 }
 
 .cartWrapper {
   display: grid;
   grid-template-columns: 1fr 350px;
+  gap: 32px;
 }
 
 .backBtn {

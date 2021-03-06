@@ -1,10 +1,10 @@
 <template>
-  <header class="mainFooter">
+  <footer class="mainFooter">
     <div class="mainFooter__wrapper center">
       <small>Stanislav Zavialov. "ONS 3 группа"</small>
       <small>1998 - 2021. &copy; Все права защищены</small>
     </div>
-  </header>
+  </footer>
 </template>
 
 <script lang="ts">
